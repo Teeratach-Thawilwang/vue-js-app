@@ -1,21 +1,29 @@
 <template>
-  <h1>test</h1>
+  <div id="app">
+    <Header/>
+  </div>
+
+  <router-view></router-view>
 </template>
 
 <script>
+import Header from "@/components/layout/Header.vue"
+
 export default {
-  name: "App",
+  name: "app",
+  components:{
+    Header
+  }
 };
 </script>
 
-<style>
+<style >
 * {
   margin: 0px;
   padding: 0px;
 }
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+</style>
+
+<style scoped>
+
 </style>
