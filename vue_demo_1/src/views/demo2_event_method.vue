@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import moment from "moment";
+
 export default {
   name: "Demo-2",
   data() {
@@ -41,21 +43,8 @@ export default {
         "Saturday",
       ];
       setInterval(() => {
-        const d = new Date();
-        this.displayTime =
-          days[d.getDay()] +
-          " " +
-          d.getDate() +
-          "/" +
-          d.getMonth() +
-          "/" +
-          d.getFullYear() +
-          " " +
-          d.getHours() +
-          ":" +
-          d.getMinutes() +
-          ":" +
-          d.getSeconds();
+        const d = new Date()
+        this.displayTime = days[d.getDay()] + " " + moment(d).format("MM/DD/YYYY hh:mm:ss")
       }, 1000);
   },
   computed:{
@@ -65,9 +54,4 @@ export default {
 </script>
 
 <style scoped>
-#demo2 {
-  margin: 30px;
-  border: 1px solid red;
-  text-align: center;
-}
 </style>

@@ -46,12 +46,6 @@ export default {
 </script>
 
 <style scoped>
-#demo4 {
-  text-align: center;
-  margin: 30px;
-  padding: 10px;
-  border: 1px solid green;
-}
 
 .compare {
   display: flex;

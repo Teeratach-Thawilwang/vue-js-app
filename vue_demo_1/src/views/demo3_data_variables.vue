@@ -57,13 +57,6 @@ export default {
 </script>
 
 <style scoped>
-#demo3 {
-  text-align: center;
-  margin: 30px;
-  padding: 10px;
-  border: 1px solid green;
-}
-
 .v-model-message {
   display: flex;
   justify-content: space-around;

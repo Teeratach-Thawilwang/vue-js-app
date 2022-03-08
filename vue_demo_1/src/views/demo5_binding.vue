@@ -40,13 +40,6 @@ export default {
 </script>
 
 <style scoped>
-#demo5 {
-  text-align: center;
-  margin: 30px;
-  padding: 10px;
-  border: 1px solid green;
-}
-
 .content a {
   text-decoration: none;
   color: #fff;

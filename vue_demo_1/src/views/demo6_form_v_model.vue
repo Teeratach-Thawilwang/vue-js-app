@@ -141,13 +141,6 @@ export default {
 </script>
 
 <style scoped>
-#demo6 {
-  text-align: center;
-  margin: 30px;
-  padding: 10px;
-  border: 1px solid green;
-}
-
 .form-container,
 .data-form {
   width: 300px;
