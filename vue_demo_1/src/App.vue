@@ -2,9 +2,13 @@
   <Header />
   <Content />
   <Footer :Footer_title="FT_title" @parent_prop="parent_prop" />
-  <p class="child-to-parent-data">
-    This line is in app.vue : <b>{{ parent_varaible }}</b>
-  </p>
+  <div class="child-to-parent-data">
+    <p>App.vue</p>
+    <p>This line is in app.vue : <b>{{ parent_varaible }}</b></p>
+    <p>Parent component create tag @parent_method="parent_method"</p>
+    <p>Then create Method parent_method(value){}</p>
+    <p>Child component send data via 'this.$emit('parent_method', "data")', in mounted(){}</p>
+  </div>
 </template>
 
 <script>
@@ -37,6 +41,13 @@ export default {
 * {
   margin: 0px;
   padding: 0px;
+  font-family: cursive;
+}
+@font-face {
+  font-family: "Fredoka", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Itim", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Itim&family=Roboto:wght@300;400;700&display=swap");
 }
 </style>
 

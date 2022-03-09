@@ -9,6 +9,7 @@
         <li><a href="/demo5">Demo5</a></li>
         <li><a href="/demo6">Demo6</a></li>
         <li><a href="/demo7">Demo7</a></li>
+        <li><a href="/demo8">Demo8</a></li>
       </ul>
     </nav>
   </div>

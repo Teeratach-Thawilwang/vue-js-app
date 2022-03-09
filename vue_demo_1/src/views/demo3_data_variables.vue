@@ -1,7 +1,7 @@
 <template>
   <div id="demo3">
     <section class="Topic">
-      <h1>Data and Varaible</h1>
+      <h1>Data and Variable</h1>
     </section>
     <section class="content">
       <div class="v-model-message">

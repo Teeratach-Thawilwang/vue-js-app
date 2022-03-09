@@ -1,8 +1,9 @@
 <template>
   <div id="Footer">
+    <p>Footer.vue</p>
     <span>&copy;Copyright 2022 by Teeratach</span>
     <p><b>{{ Footer_title }}</b></p>
-    <p>Child component create <b>props</b>. The parent component sent data via tag props.</p>
+    <p>Child component create <b>props</b>. The parent component sent data by using v-bind; :PR_data="data".</p>
   </div>
 </template>
 

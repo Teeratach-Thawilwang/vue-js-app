@@ -7,6 +7,8 @@ import demo3 from "../views/demo3_data_variables.vue"
 import demo4 from "../views/demo4_compute_method.vue"
 import demo5 from "../views/demo5_binding.vue"
 import demo6 from "../views/demo6_form_v_model"
+import demo7 from "../views/demo7_slot"
+import demo8 from "../views/demo8_vif_vshow_vfor.vue"
 
 const routes = [{
     path: "/",
@@ -36,6 +38,14 @@ const routes = [{
     path: "/demo6",
     name: "demo6",
     component: demo6
+}, {
+    path: "/demo7",
+    name: "demo7",
+    component: demo7
+}, {
+    path: "/demo8",
+    name: "demo8",
+    component: demo8
 }]
 
 const router = createRouter({
