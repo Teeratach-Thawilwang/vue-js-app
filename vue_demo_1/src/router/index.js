@@ -9,6 +9,7 @@ import demo5 from "../views/demo5_binding.vue"
 import demo6 from "../views/demo6_form_v_model"
 import demo7 from "../views/demo7_slot"
 import demo8 from "../views/demo8_vif_vshow_vfor.vue"
+import demo9 from "../views/demo9_login_pin_pad.vue"
 
 const routes = [{
     path: "/",
@@ -46,6 +47,10 @@ const routes = [{
     path: "/demo8",
     name: "demo8",
     component: demo8
+}, {
+    path: "/demo9",
+    name: "demo9",
+    component: demo9
 }]
 
 const router = createRouter({
